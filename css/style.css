@@ -6039,6 +6039,16 @@ select:focus {
 	opacity: 1; 
     transition: all 700ms ease 500ms;     
 }
+@media screen and (max-width:780px){
+    .single-project-style1 .img-holder:before{
+        transform: perspective(1200px) rotateX(0deg) translateZ(0px);
+        opacity: 1; 
+        transition: all 700ms ease 500ms;     
+    }
+    .headers1-logo{
+        margin-bottom: 0px;
+    }
+}
 
 .single-project-style1 .img-holder img{
     width: 100%;
@@ -6125,6 +6135,13 @@ select:focus {
     opacity: 0;
     transition: all 300ms ease 100ms;
     z-index: 3;
+}
+@media screen and (max-width:768px){
+    .single-project-style1 .img-holder .title-box{
+        transform: translate3d(0px, 0px, 0px); 
+        opacity: 1;
+        transition: all 700ms ease 600ms;
+    }
 }
 .single-project-style1:hover .img-holder .title-box{
     transform: translate3d(0px, 0px, 0px); 
